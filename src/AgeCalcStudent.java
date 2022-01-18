@@ -12,6 +12,7 @@ public class AgeCalcStudent {
 		String toDay = JOptionPane.showInputDialog("Enter today's date (MM/DD/YYYY)");
 		String subYearC = toDay.substring(6, 10);
 		String subMonthC = toDay.substring(0, 2);
+		
 		String subDayC = toDay.substring(3, 5);
 		System.out.println("Year: "+subYearC+ " Month: "+subMonthC+ " Day: " +subDayC);
 		
